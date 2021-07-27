@@ -1,4 +1,4 @@
-l#!/bin/bash
+#!/bin/bash
 
 tone_analyzer="Tone Analyzer-eu"
 
