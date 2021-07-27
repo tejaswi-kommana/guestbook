@@ -1,6 +1,6 @@
 l#!/bin/bash
 
-tone_analyzer="Default"
+tone_analyzer="Tone Analyzer-eu"
 
 B64_URL=$(ibmcloud resource service-keys --instance-name "$tone_analyzer" --output json| jq .[0].credentials.url -j | base64 -w 0)
 B64_APIKEY=$(ibmcloud resource service-keys --instance-name "$tone_analyzer" --output json| jq .[0].credentials.apikey -j | base64 -w 0)
